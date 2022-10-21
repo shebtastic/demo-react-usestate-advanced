@@ -1,0 +1,19 @@
+nav > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav button {
+    font-size: 2em;
+    padding: 0.5em;
+    background: white;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+nav button.active {
+    background-color: hotpink;
+}
